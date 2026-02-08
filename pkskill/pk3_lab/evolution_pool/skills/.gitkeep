@@ -1,0 +1,21 @@
+# 进化池Skills目录
+
+此目录用于存放pk3生成的skill文件。
+
+## 文件命名规范
+
+```
+pkskill-{功能}-v{版本}.md
+示例：
+- pkskill-tdd-generator-v1.md
+- pkskill-debug-analyzer-v2.md
+```
+
+## Skill格式
+
+每个skill文件应包含：
+1. Frontmatter（name, description, version等）
+2. Overview
+3. When to Use
+4. Implementation
+5. 调用历史记录表

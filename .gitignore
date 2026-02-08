@@ -1,0 +1,48 @@
+# Dependencies
+vendor/
+node_modules/
+
+# Build outputs
+*.exe
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary
+*.tmp
+*.temp
+temp/
+
+# Database (not for release)
+pk1_output/
+pk2_enriched/
+*.sqlite
+*.db
+
+# Secrets
+.env
+*.env
+!.env.example
+
+# Testing
+coverage/
+
+# Misc
+*.bak
+*~
